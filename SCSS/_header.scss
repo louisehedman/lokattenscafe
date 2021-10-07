@@ -1,0 +1,52 @@
+header {
+    background-image: url(../Assets/img/lokatt576.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+}
+
+h1 {
+    padding: 1em 0.5em;
+    font-size: 35px;
+    width: 40%;
+}
+
+
+@media only screen and (min-width:550px) {
+    
+    header {
+        background-image: url(../Assets/img/lokatt1000.jpg);
+    }
+    
+
+    h1 {
+        margin: 20px;
+        padding: 1.5em 1.5em 1.5em 0em;
+        font-size: 50px;
+        width: 40%;
+        position:sticky;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    
+    header {
+        background-image: url(../Assets/img/lokatt1500.jpg);
+    }
+
+    h1 {
+        padding: 2em 2em 2em 0em;
+        font-size: 70px;
+    }
+}
+
+@media only screen and (min-width:1500px) {
+    
+    header {
+        background-image: url(../Assets/img/lokatt2000.jpg);
+    }
+
+    h1 {
+        font-size: 90px;
+    }
+}

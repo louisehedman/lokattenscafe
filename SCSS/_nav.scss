@@ -1,0 +1,25 @@
+nav {
+    margin: 20px; 
+    
+    li {
+    padding: 0.5em;
+    list-style-type: none;
+    background: whitesmoke;
+    border: 1px solid bisque;
+    width: 50%;
+    } 
+    a {
+    text-decoration: none; 
+    font-size: 22px;
+    color:brown;
+    }
+}
+
+@media only screen and (min-width: 768px){
+
+nav li {
+    display: inline-block;
+    padding: 1em;
+    width: fit-content;
+    }
+}

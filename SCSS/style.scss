@@ -1,0 +1,30 @@
+@import "header";
+@import "nav";
+@import "main";
+@import "footer";
+
+$primary-color: brown;
+$main-margin: 20px;
+
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    min-width: 300px;
+    max-width: 1980px;
+    margin: 15px;
+    background-color:burlywood;
+}
+
+h2, a, figcaption, caption, .section2 p, footer {
+    color: $primary-color;
+}
+
+section, .top {
+    margin: $main-margin;
+}
+
